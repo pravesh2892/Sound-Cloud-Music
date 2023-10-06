@@ -1,0 +1,89 @@
+.home{
+    padding: 30px;
+    position: relative;
+}
+
+.h1{
+    font-size: 32px;
+    border-bottom: 1px solid #f2f2f2;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.h3{
+    font-size: 24px;
+}
+
+.soundCard{
+    margin-top: 20px;
+    width: 220px;
+    height: 300px;
+    position: relative;
+}
+
+.soundCard img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.soundCard-mood{
+    font-size: .8rem;
+    color: #999;
+    margin-bottom: 30px;
+}
+.playIcon{
+    background: #f50;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    top: 30%;
+    left: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1523365041139-b12e329fa49b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 200px 0; 
+  }
+  
+  .hero-content {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .frontHero__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .frontHero__tagline {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .header-signin button,
+  .header-createAcc button {
+    background-color: #f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .header-signin button:hover,
+  .header-createAcc button:hover {
+    background-color: #f50;
+  }
+  

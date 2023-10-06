@@ -1,0 +1,211 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  background: rgb(51, 51, 51);
+  height: 46px;
+}
+
+.header {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: white;
+  
+}
+
+.header-1 {
+  background-color: #111;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.header-2 {
+  color: #ccc;
+  height: 46px;
+  display: flex;
+  border-right: 1px solid #111;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 80px;
+}
+.header-2 :hover{
+  color: #fff;
+}
+
+.header-2:active {
+  background: #111;
+  color: #fff;
+}
+
+.header-2 a {
+  all: unset;
+}
+
+.header-3 {
+  height: 46px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  border-left: 1px solid #111;
+  padding-left: 10px;
+}
+
+.header-icon {
+  width: 50px;
+}
+
+.header-search {
+  width: 100%;
+  color: #666;
+  outline: 0;
+  border: 0;
+  padding: 5px 7px;
+  height: 28px;
+  background: #e5e5e5;
+  border-radius: 3px;
+}
+
+.header-search-container {
+  position: relative;
+  width: 100%;
+}
+
+.header-search-suggestions {
+  position: absolute;
+  color: #666;
+  background-color: #e5e5e5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  z-index: 1;
+}
+
+.header-search-suggestions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header-search-suggestions li {
+  margin: 0.25rem 0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.header-search-suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.header-signin {
+  display: flex;
+  align-items: center;
+}
+
+.header-signin button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  padding: 2px 11px 2px 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  color: white;
+}
+
+.header-createAcc {
+  display: flex;
+  align-items: center;
+}
+
+.header-createAcc button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  padding: 2px 11px 2px 10px;
+  border-radius: 3px;
+  color: white;
+  background-color: #f50;
+}
+
+.header-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+}
+
+.header-upload:hover{
+  color: #fff;
+}
+
+.header-overflow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-overflow div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+  margin-right: 2px;
+}
+
+.header-upload {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 80px;
+}
+
+.header-upload:active {
+  background: #111;
+}
+
+.header-upload a {
+  all: unset;
+}
+
+.coming-soon-container {
+  text-align: center;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.coming-soon-container h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.coming-soon-container p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+}
