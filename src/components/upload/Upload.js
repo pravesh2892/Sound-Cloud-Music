@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import "./Upload.css";
 
-import { useDispatch } from "react-redux";
+
 
 function Upload() {
   return (

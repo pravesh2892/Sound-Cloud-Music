@@ -62,6 +62,7 @@ function Signin() {
           alert(json.message);
         } else {
           window.sessionStorage.setItem("jwt", json.token);
+          console.log("JWT Token:", json.token);
           setIsAuthenticated(false);
           dispatch(setUser({ name: json.data.name, email: json.data.email }));
           alert("Login Succesfully");

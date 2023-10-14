@@ -1,11 +1,15 @@
 import React from "react";
 import "../../styles/header.css";
 
-function Head() {
+function Footer() {
+  const hrStyle = {
+    borderColor: "#f50", 
+  };
+
   return (
     <>
       <footer>
-        <div className="container-xxl p-3 mb-2 bg-dark text-white ">
+        <div className="container-xxl p-1  bg-dark text-white  fixed-bottom">
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">
@@ -43,7 +47,7 @@ function Head() {
                         className="link-light"
                         href="https://www.facebook.com/SoundCloud/"
                       >
-                        <i class="fab fa-facebook-f fontawesome-style"></i>
+                        <i className="fab fa-facebook-f fontawesome-style"></i>
                       </a>
                     </div>
                     <div className="col-3 mx-auto">
@@ -51,7 +55,7 @@ function Head() {
                         className="link-light"
                         href="https://www.instagram.com/soundcloud/?hl=en"
                       >
-                        <i class="fab fa-instagram fontawesome-style"></i>
+                        <i className="fab fa-instagram fontawesome-style"></i>
                       </a>
                     </div>
                     <div className="col-3 mx-auto">
@@ -59,7 +63,7 @@ function Head() {
                         className="link-light"
                         href="https://www.youtube.com/c/SoundCloud"
                       >
-                        <i class="fab fa-youtube fontawesome-style"></i>
+                        <i className="fab fa-youtube fontawesome-style"></i>
                       </a>
                     </div>
                     <div className="col-3 mx-auto">
@@ -67,14 +71,14 @@ function Head() {
                         className="link-light"
                         href="https://twitter.com/SoundCloud?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                       >
-                        <i class="fab fa-twitter fontawesome-style"></i>
+                        <i className="fab fa-twitter fontawesome-style"></i>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <hr />
-              <div className="mt-5">
+              <hr/>
+              <div className="mt-1">
                 <p className="main-hero-para text-center w-100">
                   Copyright @ 2023 Sound Cloud. All rights reserved.
                 </p>
@@ -84,21 +88,8 @@ function Head() {
         </div>
       </footer>
     </>
-    // <footer className="header-container">
-
-    //   <div className="header" style={{ justifyContent: "space-evenly" , border: "none" }}>
-    //     <div className="header-2" style={{ width: "max-content" }}>
-    //       About us
-    //     </div>
-    //     <div className="header-2" style={{ width: "max-content" }}>
-    //       Privacy policy
-    //     </div>
-    //     <div className="header-2" style={{ width: "max-content" }}>
-    //       Terms of Service
-    //     </div>
-    //   </div>
-    // </footer>
+   
   );
 }
 
-export default Head;
+export default Footer;

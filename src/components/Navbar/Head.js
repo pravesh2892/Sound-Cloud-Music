@@ -23,7 +23,7 @@ function Head() {
 
   useEffect(() => {
     //make an api call after every key press
-    //but if the difference between 2 API calls is < 200ms
+    //but if the difference between 2 API calls is < 300ms
     //decline the API call
     const timer = setTimeout(() => {
       if (searchCache[searchQuery]) {

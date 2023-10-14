@@ -61,7 +61,7 @@ function Signup() {
           password: "",
         });
         let json = await data.json();
-        // console.log(json);
+        console.log(json);
         if (json.status === "fail") {
           alert(json.message);
         } else {
