@@ -35,7 +35,7 @@ function Album() {
         )
           .then((data) => data.json())
           .then((json) => {
-            console.log(json);
+            // console.log(json);
             setData(json.data);
 
             const startIndex = (page - 1) * limit;
@@ -50,7 +50,7 @@ function Album() {
   }, [navigate, location.search, page]);
 
   const totalPages = Math.ceil(data?.songs?.length / limit);
-  console.log(totalPages);
+  // console.log(totalPages);
   const handleNextPage = () => {
     if (page < totalPages) {
       setPage(page + 1);

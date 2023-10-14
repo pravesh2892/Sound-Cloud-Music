@@ -8,8 +8,8 @@ function Footer() {
 
   return (
     <>
-      <footer>
-        <div className="container-xxl p-1  bg-dark text-white  fixed-bottom">
+      <footer >
+        <div className="container-fluid p-1  bg-dark text-white  fixed-bottom">
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">

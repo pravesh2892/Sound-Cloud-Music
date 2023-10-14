@@ -107,6 +107,7 @@ const Home = () => {
   const showAlbum = (sound) => {
     if (window.sessionStorage.getItem("jwt")) {
       navigate("/album?id=" + sound.album);
+      console.log(sound.album);
     } else {
       alert("You need to login first!");
       navigate("/signin");
